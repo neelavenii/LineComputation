@@ -13,6 +13,8 @@ namespace LineComputation
             Console.WriteLine("Welcome to Line computation Program");
             Length length = new Length();
             Length.CalculateLength();
+            Compare compare = new Compare();
+            Compare.CompareLength();
             Console.ReadLine();
         }
     }
