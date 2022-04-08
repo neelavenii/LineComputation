@@ -10,6 +10,10 @@ namespace LineComputation
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Line computation Program");
+            Length length = new Length();
+            Length.CalculateLength();
+            Console.ReadLine();
         }
     }
 }
